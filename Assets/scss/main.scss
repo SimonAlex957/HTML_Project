@@ -99,8 +99,8 @@ main{
         display: flex;
         align-items: center;
 
-        background-image: url('/images/machineLearningHomepage.webp');
-        background-position: top right;
+        background-image: url('../../images/machineLearningHomepage.webp');
+        background-position: top left;
         background-size: cover;
 
         &:after{
@@ -152,7 +152,7 @@ main{
 
             .project {
              
-                background-image: url("/images/eniac.png");
+                background-image: url("../../images/eniac.png");
                 border-radius: 16px;
                 overflow: hidden;
                 
@@ -160,10 +160,10 @@ main{
                 background-position: center;
                 
                 &:nth-child(2){
-                    background-image: url("/images/presentML.jpeg");
+                    background-image: url("../../images/presentML.jpeg");
                 }
                 &:nth-child(3){
-                    background-image: url("/images/futureComputers.jpg");
+                    background-image: url("../../images/futureComputers.jpg");
                 }
 
                 .content {
